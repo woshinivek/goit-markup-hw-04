@@ -162,7 +162,6 @@ img {
     display: flex;
     align-items: center;
     margin-left: auto;
-    color: var(--title-text-color);
 }
 
 
@@ -488,8 +487,8 @@ img {
     border-bottom: 1px solid #EEEEEE;
 }
 
-.works-list .description-wrapper:hover,
-.works-list .description-wrapper:focus {
+.works-list .item:hover .description-wrapper,
+.works-list .item:focus .description-wrapper {
     border: none;
 }
 
