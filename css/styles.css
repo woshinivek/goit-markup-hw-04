@@ -213,7 +213,7 @@ img {
 
     background-color: var(--bcg-hero);
     background-image:
-        linear-gradient(to right,
+        linear-gradient(
             var(--gradient-color),
             var(--gradient-color)),
         url("../images/studio/banner.jpg");
