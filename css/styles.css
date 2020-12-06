@@ -453,7 +453,8 @@ img {
     cursor: pointer;
 }
 
-.works-list .item:hover {
+.works-list .item:hover,
+.works-list .item:focus {
     border: 1px solid var(--works-list-border);
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
         0px 4px 4px rgba(0, 0, 0, 0.06),
@@ -486,7 +487,8 @@ img {
     border-bottom: 1px solid #EEEEEE;
 }
 
-.works-list .description-wrapper:hover {
+.works-list .description-wrapper:hover,
+.works-list .description-wrapper:focus {
     border: none;
 }
 
