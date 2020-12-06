@@ -8,6 +8,7 @@
     --black-color: #000000;
     --bcg-hero: #C4C4C4;
     --gradient-color: rgba(47, 48, 58, 0.4);
+    --clients-logo: #afb1b8;
 }
 
 body {
@@ -480,6 +481,41 @@ img {
     max-width: 100%;
     font-size: 16px;
     line-height: 1.87;
+}
+
+/* ===== CLIENTS ====== */
+
+.clients {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.clients__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.clients__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 90px;
+
+    color: var(--clients-logo);
+
+    border: 1px solid var(--clients-logo);
+    border-radius: 4px;
+}
+
+.clients__link:hover,
+.clients__link:focus {
+    color: var(--accent-color);
+    border: 1px solid var(--accent-color);
+}
+
+.clients__icon {
+    fill: currentColor;
 }
 
 /* ===== FOOTER ===== */
